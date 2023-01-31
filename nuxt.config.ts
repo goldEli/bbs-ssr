@@ -12,13 +12,13 @@ export default defineNuxtConfig({
   },
   postcss: {
     plugins: {
-      "postcss-px-to-viewport": {
-        unitToConvert: "mpx",
-        viewportWidth: 750,
-      },
+      // "postcss-px-to-viewport": {
+      //   unitToConvert: "mpx",
+      //   viewportWidth: 750,
+      // },
       "postcss-px-to-viewport-8-plugin": {
-        unitToConvert: "ppx",
-        viewportWidth: 1920,
+        unitToConvert: "px",
+        viewportWidth: 375,
       },
     },
   },

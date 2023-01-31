@@ -45,11 +45,11 @@ useHead({
 
 <template>
   <div>
-    <Header v-if="globalStore.isBigScreen"></Header>
-    <span v-else><MobileNavBar></MobileNavBar></span>
+    <!-- <Header v-if="globalStore.isBigScreen"></Header>
+    <span v-else><MobileNavBar></MobileNavBar></span> -->
 
     <NuxtPage :key="$route.fullPath" />
-    <MobileToTop v-if="!globalStore.isBigScreen"></MobileToTop>
+    <!-- <MobileToTop v-if="!globalStore.isBigScreen"></MobileToTop> -->
   </div>
 </template>
 <style lang="less">
