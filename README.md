@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# ROM 微论坛
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+此项目内嵌到游戏中
 
 ## TODO
 
