@@ -1,4 +1,3 @@
-import { defineNuxtConfig } from "nuxt";
 import profile from "./package.json";
 
 export default defineNuxtConfig({
